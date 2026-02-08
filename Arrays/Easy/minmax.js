@@ -6,8 +6,8 @@ let maximum = arr[0]
 
 for(let i=1; i< arr.length; i++){
     
-    if(arr[i] > maximum){
-       let max = maximum = arr[i]
+    if(arr[i] > maximum){               // create the same logic for minimum number arr[i] < minimum and the answer will get in it
+       maximum = arr[i]
     }
 }
 
