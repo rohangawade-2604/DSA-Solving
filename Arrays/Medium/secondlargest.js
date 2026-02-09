@@ -18,5 +18,6 @@ for(let i = 0; i<arr.length; i++){
    }
 }
 
+console.log(second, "is the second largest number in an array")
 // console.log(biggest)
-console.log(second)
+
