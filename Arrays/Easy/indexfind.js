@@ -3,7 +3,7 @@
 
 let arr = [10, 20, 30]   // Element: 30 → Index 2
 
-let num = 50;
+let num = 20;
 let found = false
 
 for(let i=0; i<arr.length; i++){
