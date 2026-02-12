@@ -8,21 +8,18 @@ let num = 0;
 
 let arr1 = []
 
-for(let i=0; i<arr.length-1; i++){
-    for(j=i+1; j<arr.length; j++){
-
-        if(arr[i] > arr[j]){
-            let temp = arr[i];
-            arr[i] = arr[j];
-            arr[j] = temp
-        }
-    }
-
-    if(arr[i] !== num){
+for (let i = 0; i < arr.length; i++) {
+    if (arr[i] !== num) {
         arr1.push(arr[i])
-        
     }
+
 }
+    let ans = arr.length - arr1.length;
+    console.log(ans)
+
+    for(let i=0; i<ans; i++){
+        arr1.push(0)
+    }
 
 // console.log(arr)
 console.log(arr1)
