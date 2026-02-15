@@ -21,6 +21,6 @@ for (let i = 0; i < arr.length; i++) {
         arr1.push(0)
     }
 
-// console.log(arr)
+console.log(arr)
 console.log(arr1)
 
