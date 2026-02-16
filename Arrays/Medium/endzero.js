@@ -12,7 +12,6 @@ for (let i = 0; i < arr.length; i++) {
     if (arr[i] !== num) {
         arr1.push(arr[i])
     }
-
 }
     let ans = arr.length - arr1.length;
     console.log(ans)
